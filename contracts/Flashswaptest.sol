@@ -8,7 +8,6 @@ import './interfaces/IUniswapV2Pair.sol';
 import './interfaces/IUniswapV2Factory.sol';
 import './interfaces/IUniswapV2Router02.sol';
 
-// @author Daniel Espendiller - https://github.com/Haehnchen/uniswap-arbitrage-flash-swap - espend.de
 //
 // e00: out of block
 // e01: no profit
@@ -28,7 +27,6 @@ contract Flashswaptest {
         owner = msg.sender;
     }
 
-    // https://github.com/Haehnchen/uniswap-arbitrage-flash-swap/blob/main/contracts/Flashswap.sol
     function start(
         uint _maxBlockNumber,
         address _tokenPay, // source currency when we will get; example BNB
@@ -57,7 +55,6 @@ contract Flashswaptest {
 
         require(token0 != address(0) && token1 != address(0), 'e11');
 
-        // https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/using-flash-swaps
         // _tokenPay can be zero because they should be sent from within a callback function
         // that the pair triggers on the to address, to address is address(this) in thie contract
         IUniswapV2Pair(pairAddress).swap(
