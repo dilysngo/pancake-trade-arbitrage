@@ -1,0 +1,463 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "BiswapCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "cafeCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenPay",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenSwap",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountTokenPay",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_sourceRouter",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_targetRouter",
+						"type": "address"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "jetswapCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "pancakeCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "pantherCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_maxBlockNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenPay",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenSwap",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountTokenPay",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_sourceRouter",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_targetRouter",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_sourceFactory",
+						"type": "address"
+					}
+				],
+				"name": "startArbitrage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "swapV2Call",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "uniswapV2Call",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "wardenCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "waultSwapCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Flashswap.sol": "Flashswap"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Flashswap.sol": {
+			"keccak256": "0xb723084feec6544790fd19d46c41aa40304874dfbb9a409486a4674fa67af5b0",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://74d7e02d25ad7e66fa9b5dc84501a3b53a75b80052b835554d9c140217a57e38",
+				"dweb:/ipfs/QmX1UmS3c31MJhvadDW3z5kec9dJ3mTBqYdbNaBrDyWKVg"
+			]
+		},
+		"contracts/UniswapV2Library.sol": {
+			"keccak256": "0x255829d927d2fb87e8bbc07ff1631da51b9ceae1d8a833639996e8acadc0b739",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b764636349c662db7f7875493239f3a391f8ca84f5678d95c0e36accd4174f29",
+				"dweb:/ipfs/QmciVFkzeFFSxBortt5a9S9UTTF5Lu6z4BfrFj66tt2QZ1"
+			]
+		},
+		"contracts/interfaces/IERC20.sol": {
+			"keccak256": "0xe3a9e24f131d8f2fab45d0fe6547e11efd49084d1971ca271f06eccb5a427e82",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63ca5356e1050e8b7abf0dad816e32caed67c4fe5d9eb032e1094943c60bf96b",
+				"dweb:/ipfs/QmebunYNFcZWsJ5eAHCrFDYQ7MsztcWp38iKuNiQJVKZiJ"
+			]
+		},
+		"contracts/interfaces/IUniswapV2Factory.sol": {
+			"keccak256": "0xbd388182ddce92f592386a0359fcabbc08b285ecf949a92e8e057310734557ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://910b0a765bbd76597e38eb841e21cbd3fcb0b477af268138984e00cce3440361",
+				"dweb:/ipfs/QmU7udEwHAjb7r2u6skGdWnw5jYfCycdKnx11P6yW9MMUZ"
+			]
+		},
+		"contracts/interfaces/IUniswapV2Pair.sol": {
+			"keccak256": "0x0f3ce5f31d75c25f6d441917fef49c5d0dfbe918be42175e4613381d5f090eaa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0a8e7d7b929f5258c960fa311d3eb5214571e5c4df9b03567333cc37de32c84f",
+				"dweb:/ipfs/QmeJJQo3Y2cKbGWb6T9LMpV2p1kD5y86YrZZx2bjYDf8Bf"
+			]
+		},
+		"contracts/interfaces/IUniswapV2Router01.sol": {
+			"keccak256": "0xb0f0a9e1bfa3a5f66128964038451692ed3683dc741f43262d9bd8b791b8ea64",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc110a0d4c6e9358dd7127bea4c77ba93513b1dd55d55cb4bf8781e4f1fd2ec6",
+				"dweb:/ipfs/QmPnqQ2amu37sjW98BLXuJnLjavrTjoZcc1oidFDyQP4LX"
+			]
+		},
+		"contracts/interfaces/IUniswapV2Router02.sol": {
+			"keccak256": "0x6a5985605b2462d3bc99a92de2843c236ceeeae09cf77c8b9b89ef0b28dc36e6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a3bd7fe26c5c6caa7cff94ffd0af146a7542615b8cf928afa638621bbb736407",
+				"dweb:/ipfs/QmSSry3rTW4cWkzD46kPvRLLQTEFeEt2A6v3p8j4F9A5N5"
+			]
+		},
+		"contracts/utils/SafeMath.sol": {
+			"keccak256": "0x05191dc4399c9eebb470632a8919c1015944d814b849f652d17f553647773874",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d808963fda449701b215f6bf61ee17952cb7983695a453110ac5b8ab5a0cddf6",
+				"dweb:/ipfs/QmdsJWpA2ZBf5FEuigaMPRkBmPcreR5qihKytwHxwrQfhH"
+			]
+		}
+	},
+	"version": 1
+}
